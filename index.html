@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/b3f5a431f4.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <script src="https://kit.fontawesome.com/b3f5a431f4.js" crossorigin="anonymous"></script>
     <div class="hat">
         <div class="women">
             <img src="Screenshot_30.jpg" alt="">
@@ -26,20 +27,66 @@
                 <p>Звоните:</p>
                 <h4>(044)</h4>
                 <h3>466-0-466</h3>
+            
+            <img src="Screenshot_31.jpg" alt="" id="login_pic">
+            
+            <a href="#mod_window"><button class="login_btn">Вход с регистрацей</button></a>
 
-                
          
         </div>
     </div>
        
+    <div id="mod_window" class="mod_window">
+        <div class="mod_window_body">
+            <div class="mod_window_content">
+                <a href="#" class="mod_window_close">X</a>
+                <div class="mod_window_title">Регистрация</div>
+                <div class="mod_window_logpas">
+                    <label for="uname"><b>Имя</b></label>
+                    <input type="text" placeholder="Введите имя" name="uname" required>
+
+                    <label for="psw"><b>Пароль</b></label>
+                    <input type="password" placeholder="Введите пароль" name="psw" required>
+
+                    <button type="submit">Войти</button>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Запомнить меня
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <hr>
     <header>
         <div class="logo">
             <img src="logo-ua-2009.gif" alt="logokiyvstara"> 
         </div>
+        <div class="mainbtns">
+            <a href="#"><i class="fa-solid fa-house-chimney"></i></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        
+        
         
 
-
+        <div class="changelang">
+            <a href="" class="change_lang_link">UA</a>
+            <a href="" class="change_lang_link">RU</a>
+            <a href="" class="change_lang_link">EN</a>
+        </div>
+        
+        <form action="search">
+            <span class="input-group-addon"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="text" placeholder="поиск" name="unsrch" required class="main_src_form">
+            <img src="favicon — копия.jpg" alt="">
+        </form>
+        
+        
     </header>
 
 

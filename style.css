@@ -16,7 +16,8 @@ hr{
     display: flex;
     background-color: rgb(166, 219, 248);
     font-weight: 600;
-    
+    padding: 0 10rem 0 0px;
+    position: relative;
 }
 .women{
 display: flex;
@@ -40,4 +41,114 @@ p{
     color:black;
     font-weight: bold;
     font-style: oblique;
+}
+.login_btn{
+    border:none;
+    text-decoration:underline;
+    background-color: rgb(166, 219, 248);
+    margin: 0 auto;
+    font-weight:bold;
+    color:orange;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.login_btn:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+.mod_window{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease 0s;
+}
+.mod_window_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mod_window_content{
+    background-color: #fff;
+    color: black;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+    transform: translate(0px, -100%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.mod_window_title{
+    font-size: 40px;
+    margin: 0px 0px 0.5em 0px;
+}
+.mod_window_close{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: black;
+}
+.mod_window:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+.mod_window:target .mod_window_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+img#login_pic{
+    position: absolute;
+    right: 9.5rem;
+    bottom: 10px;
+    top: 5px;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content:space-between;
+}
+.fa-solid{
+    padding-left: 1rem;
+    color: blue;
+    
+}
+.fa-solid:hover{
+    cursor: pointer;
+    color:rgb(170, 170, 224);
+    
+}
+.mainbtns{
+   
+   
+}
+.changelang{
+    
+    
+}
+.change_lang_link{
+    padding-left: 0.5rem;
+}
+.change_lang_link:hover{
+    color:black;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: none;
+}
+.main_src_form{
+    border-radius: 10px;
+    box-shadow: inset 1px 2px 3px 1px rgb(73, 68, 68);
+    
 }
