@@ -30,7 +30,7 @@ display: flex;
     align-items: center;
     
 }
-p{
+.hat_title{
     padding: 0;
 }
 .color_hat_link{
@@ -117,7 +117,7 @@ header{
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 0px 30px 0px 30px;
+    padding: 20px 30px 0px 30px;
     justify-content:space-between;
 }
 .fa-solid{
@@ -150,9 +150,19 @@ main{
 }
 .blockmenu{
     padding: 5px 30px 0px 30px;
-    font-style: oblique;
-    text-decoration: underline;
+    
     max-width: 20%;
     justify-content: center;
     align-items: center;
+}
+h2{
+    text-decoration: underline;
+    font-style: oblique;
+    padding-left: 0.5rem;
+}
+.blockmenu_links{
+    padding: 0px 8px 3px 8px;
+}
+.blockmenu_img{
+    padding-top: 1rem;
 }
