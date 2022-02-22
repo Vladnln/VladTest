@@ -161,8 +161,36 @@ h2{
     padding-left: 0.5rem;
 }
 .blockmenu_links{
-    padding: 0px 8px 3px 8px;
+    padding: 0px 10px 3px 10px;
+    line-height: 1.5em;
+}
+.blockmenu_links:hover{
+    cursor: pointer;
+    color:rgb(238, 206, 158);
 }
 .blockmenu_img{
     padding-top: 1rem;
+}
+.Support{
+    max-width: 8rem;
+    padding: 5px 30px 0px 30px;
+    
+}
+.Support_links{
+    padding-top: 10px;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.FAQ{
+    max-width: 11rem;
+    padding: 10px 30px 0px 30px;
+    
+}
+.FAQ_links{
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.Support_links:hover, .FAQ_links:hover{
+    color:rgb(238, 206, 158);
+    cursor: pointer;
 }
